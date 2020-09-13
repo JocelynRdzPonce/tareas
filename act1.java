@@ -12,12 +12,12 @@ class Fibo
          {
              x= x+1;
              v3= v1+v2;
-             v2=v1;
-             v3= v2;
+             v1=v2;
+             v2= v3;
              System.out.println(v3);
 
 
-         }while(v3==10);
+         }while(x<10);
 
     }
 
